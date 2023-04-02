@@ -1,0 +1,41 @@
+.navbar{
+    top: 0;
+    left: 0;
+    width: 100%;   
+    position: fixed;
+    display: flex;
+    background-color: darkslategrey;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+
+}
+
+.navbar img{
+    height: 40px;
+    background-color: darkslategrey;
+}
+
+.navbar ul{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    justify-content: center;
+    text-align: center;
+}
+
+.navbar li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.navbar a{
+    text-decoration: none;
+    display:block;
+    color: rgb(144, 193, 231);
+    padding:10px;
+    font-size: 20px;
+    text-align: center;
+
+}
